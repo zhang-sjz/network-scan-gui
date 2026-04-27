@@ -29,18 +29,6 @@ python -m PyInstaller --noconfirm --clean --onefile --windowed --name "network_s
 
 - `dist/network_scan_gui.exe`
 
-## 发布到 GitHub（推荐）
-
-建议使用“两层发布”：
-
-1. 仓库只存源码（不提交 `dist/`、`build/`）
-2. 可执行文件放到 GitHub Releases 附件
-
-### 版本发布建议
-
-- Tag：`v1.0.0`、`v1.0.1`...
-- Release 标题：与 Tag 一致
-- 附件：`network_scan_gui.exe`
 
 ### Release 说明模板
 
